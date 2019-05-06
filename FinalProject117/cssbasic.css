@@ -1,0 +1,224 @@
+/*DEVELOPER: Julie Chandara, IS117-19S,Spring 2019 */
+
+body
+{
+	font-family: Trebuchet MS,serif;
+	font-size: 100%;
+	margin: 10px;
+	color: #222;
+	background-color: #111111;
+}
+
+#page
+{
+	min-width: 200px;
+	padding: 20px 30px;
+	margin: 0 auto;
+	background-color: #111111;
+	border: 1px solid #999;
+}
+#card-picture img
+{
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    display: block;
+    padding: auto;
+}
+section
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 3em;
+	color:white;
+}
+section.img{
+	float:left;
+}
+
+div.element
+{
+	text-align: center;
+	padding: 10px 0;
+	margin: auto;
+	background-color: #111111;
+	border: 2px solid #666;
+
+
+}
+div.card{
+    color:white;
+    background-color: #111111;
+    text-align: left;
+}
+
+.text{
+    margin-top:auto;
+    margin-bottom: auto;
+    text-align: right;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #111111;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav .subnavbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+	background-color: #111111;
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: #111111;
+	width: 100%;
+	z-index: 1;
+}
+
+.subnav-content a {
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+
+.subnav-content a:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.subnav:hover .subnav-content {
+	display: block;
+}
+h1
+{
+	font-weight: normal;
+	margin: 0 0 1em 0;
+}
+
+strong
+{
+	color: #c00;
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: white;
+	border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+	padding: 2px 16px;
+}
+article{
+	align:center;
+	font-size: small;
+    padding: 2px 16px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.column {
+	float: left;
+	width: 30.33%;
+	padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.card-shop{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
+
+.price {
+	color: grey;
+	font-size: 22px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
